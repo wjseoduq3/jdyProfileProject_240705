@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/resources/css/title.css">
 <title>JDY Profile</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 		</tr>
 		<tr>
 			<td align="center">
-				<span class="title_text02">My name is ---</span>
+				<span class="title_text02">My name is JDY, a novice developer.</span>
 			</td>
 		</tr>
 		<tr>
@@ -23,35 +24,35 @@
 				<table border="0" cellpadding="20" cellspacing="0">
 					<tr>
 						<td class="skill_box">
-							<span class="skill_test01">J</span><span class="skill_test02">AVA</span>
+							<span class="skill_text01">J</span><span class="skill_text02">AVA</span>
 						</td>
-						<td rowspan="6" class="skill_box">
-							<img src="/resoures/img/springboot.jpg">
-						</td>
-					</tr>
-					<tr>
-						<td class="skill_box">
-							<span class="skill_test01">J</span><span class="skill_test02">SP</span>
+						<td rowspan="6" class="image_box">
+							<img src="/resources/img/springboot.jpg">
 						</td>
 					</tr>
 					<tr>
 						<td class="skill_box">
-							<span class="skill_test01">S</span><span class="skill_test02">PRINGBOOT</span>
+							<span class="skill_text01">J</span><span class="skill_text02">SP</span>
 						</td>
 					</tr>
 					<tr>
 						<td class="skill_box">
-							<span class="skill_test01">H</span><span class="skill_test02">TML5&CSS</span>
+							<span class="skill_text01">S</span><span class="skill_text02">PRINGBOOT</span>
 						</td>
 					</tr>
 					<tr>
 						<td class="skill_box">
-							<span class="skill_test01">D</span><span class="skill_test02">ATABASE</span>
+							<span class="skill_text01">H</span><span class="skill_text02">TML5&CSS</span>
 						</td>
 					</tr>
 					<tr>
 						<td class="skill_box">
-							<span class="skill_test01">J</span><span class="skill_test02">AVASCRIPT</span>
+							<span class="skill_text01">D</span><span class="skill_text02">ATABASE</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="skill_box">
+							<span class="skill_text01">J</span><span class="skill_text02">AVASCRIPT</span>
 						</td>
 					</tr>	
 				</table>
