@@ -8,6 +8,8 @@
 <title>JDY Profile</title>
 </head>
 <body>
+	<jsp:include page="header.jsp"/>
+	<br><br>
 	<table border="0" cellpadding="20" cellspacing="0">
 		<tr>
 			<td align="center">
@@ -16,7 +18,7 @@
 		</tr>
 		<tr>
 			<td align="center">
-				<span class="title_text02">My name is JDY, a novice developer.</span>
+				<span class="title_text02">My name is JDY, a novice developer who're dreaming to be a veteran developer.</span>
 			</td>
 		</tr>
 		<tr>
@@ -57,10 +59,9 @@
 					</tr>	
 				</table>
 			</td>
-		</tr>
-	
-	
-	
+		</tr>	
 	</table>
+	<br><br>
+	<jsp:include page="footer.jsp"/>	
 </body>
 </html>

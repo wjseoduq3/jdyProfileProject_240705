@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* index.jsp */
 span.title_text01 {
 	font-size: 80px;
 	color: #81B622;
@@ -33,3 +34,13 @@ td.skill_box {
 td.image_box {
    background-color: #DBE8D8;
 }
+
+/* header.jsp 
+td.header {
+	color: 132a13;
+} */
+
+/* footer.jsp 
+div.footer {
+	color: 132a13;
+} */
