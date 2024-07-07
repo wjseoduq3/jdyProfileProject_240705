@@ -16,4 +16,17 @@ public class ProfileController {
 		return "index";
 	}
 	
+	@GetMapping(value = "/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping(value = "/joinOk")
+	public String joinOk() {
+		
+		
+		return "joinOk";
+	}
+	
+	
 }

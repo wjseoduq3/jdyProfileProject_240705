@@ -1,4 +1,21 @@
 @charset "UTF-8";
+/*
+body {
+	background-color: d8f3dc;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* header.jsp 
+div.header {
+	color: 132a13;
+} */
+
+/* footer.jsp 
+div.footer {
+	color: 132a13;
+} */
+
 
 /* index.jsp */
 span.title_text01 {
@@ -35,12 +52,3 @@ td.image_box {
    background-color: #DBE8D8;
 }
 
-/* header.jsp 
-td.header {
-	color: 132a13;
-} */
-
-/* footer.jsp 
-div.footer {
-	color: 132a13;
-} */

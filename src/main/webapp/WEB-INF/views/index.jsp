@@ -10,7 +10,7 @@
 <body>
 	<jsp:include page="header.jsp"/>
 	<br><br>
-	<table border="0" cellpadding="20" cellspacing="0">
+	<table border="0" cellpadding="20" cellspacing="0" >
 		<tr>
 			<td align="center">
 				<span class="title_text01">JDY's PROFILE</span>

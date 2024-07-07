@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
+<!-- <link rel="stylesheet" href="/resources/css/title.css"> -->
+
 <title>footer</title>
-<style type="text/css">
-	.footer { background-color: 132a13}
-</style>
 </head>
 <body>
-	<div class="footer">copyright(c) JDY (phone) 010-123-4567  published 2024-07-17</div>
+	<div class="footer" align="center">copyright(c) JDY (phone) 010-123-4567  published 2024-07-17</div>
 </body>
 </html>
