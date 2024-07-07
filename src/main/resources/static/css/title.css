@@ -1,20 +1,22 @@
 @charset "UTF-8";
-/*
+
 body {
-	background-color: d8f3dc;
+	background-color: #d8f3dc;
 	justify-content: center;
 	align-items: center;
-} */
+}
 
-/* header.jsp 
+/* header.jsp */
 div.header {
-	color: 132a13;
-} */
+	background-color: #132a13;
+}
 
-/* footer.jsp 
+/* footer.jsp */
 div.footer {
-	color: 132a13;
-} */
+	background-color: #132a13;
+	color: #ffffff;
+	height: 60px;
+}
 
 
 /* index.jsp */
@@ -45,10 +47,10 @@ span.skill_text02 {
 }
 
 td.skill_box {
-   background-color: #DBE8D8;
+   background-color: #a3b18a;
 }
 
 td.image_box {
-   background-color: #DBE8D8;
+   background-color: #a3b18a;
 }
 

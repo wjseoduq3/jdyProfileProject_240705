@@ -10,7 +10,8 @@
 <body>
 	<jsp:include page="header.jsp"/>
 	<br><br>
-	<table border="0" cellpadding="20" cellspacing="0" >
+	<div class="outer_table" align="center">
+	<table border="0" cellpadding="20" cellspacing="0" width="1200">
 		<tr>
 			<td align="center">
 				<span class="title_text01">JDY's PROFILE</span>
@@ -23,7 +24,7 @@
 		</tr>
 		<tr>
 			<td>
-				<table border="0" cellpadding="20" cellspacing="0">
+				<table border="0" cellpadding="20" cellspacing="0" width="1200">
 					<tr>
 						<td class="skill_box">
 							<span class="skill_text01">J</span><span class="skill_text02">AVA</span>
@@ -61,6 +62,7 @@
 			</td>
 		</tr>	
 	</table>
+	</div>
 	<br><br>
 	<jsp:include page="footer.jsp"/>	
 </body>
