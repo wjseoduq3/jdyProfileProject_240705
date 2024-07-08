@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>My Profile</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -15,21 +15,21 @@
 	<table border="0" cellpadding="20" cellspacing="0">
 		<tr>
 			<td align="center">
-				<span class="title_text01">DEVELOPER GYOJIN's PROFILE</span>
+				<span class="title_text01">JDY's PROFILE</span>
 			</td>
 		</tr>
 		<tr>
 			<td align="center">
-				<span class="title_text02">I'm Gyojin Lee, a developer who wants a development job. Please call me back.</span>
+				<span class="title_text02">I'm JDY, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
 			<td class="content_box" align="center">
-				<form action="loginOk" method="post" name="loginForm">				
+				<form action="loginOk" method="post" name="joinForm">				
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td align="right">
-							<span class="content_text">아 이 디 :</span>
+							<span class="content_text">아이디 :</span>
 						</td>
 						<td>
 							<input class="input_box01" type="text" name="mid">
@@ -45,7 +45,15 @@
 					</tr>
 					<tr>
 						<td align="right">
-							<span class="content_text">이름 :</span>
+							<span class="content_text">비밀번호확인 :</span>
+						</td>
+						<td>
+							<input class="input_box01" type="password" name="mpwCheck">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span class="content_text">회원이름 :</span>
 						</td>
 						<td>
 							<input class="input_box01" type="text" name="mname">
@@ -65,7 +73,7 @@
 					<tr>
 						<td colspan="2" align="center">							
 							<input class="btn01" type="submit" value="가입완료">
-							<input class="btn01" type="button" value="로그인" onclick="javascript:window.location.href='join'">
+							<input class="btn01" type="button" value="로그인" onclick="javascript:window.location.href='login'">
 						</td>
 					</tr>
 				</table>

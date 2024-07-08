@@ -23,7 +23,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td align="center">
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td class="skill_box">

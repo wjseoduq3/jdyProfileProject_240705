@@ -16,12 +16,12 @@
 	<table border="0" cellpadding="20" cellspacing="0">
 		<tr>
 			<td align="center">
-				<span class="title_text01">DEVELOPER GYOJIN's PROFILE</span>
+				<span class="title_text01">JDY's PROFILE</span>
 			</td>
 		</tr>
 		<tr>
 			<td align="center">
-				<span class="title_text02">I'm Gyojin Lee, a developer who wants a development job. Please call me back.</span>
+				<span class="title_text02">I'm JDY, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
@@ -32,7 +32,7 @@
 						<th class="board_title" width="6%">번호</th>
 						<th class="board_title" width="10%">아이디</th>
 						<th class="board_title" width="10%">이름</th>
-						<th class="board_title" width="60%">제목번호</th>
+						<th class="board_title" width="60%">제목</th>
 						<th class="board_title" width="14%">등록일</th>					
 					</tr>
 					<tr>
@@ -43,14 +43,14 @@
 						<td class="board_content" align="center">2024-07-08</td>
 					</tr>
 					<tr>
-						<td class="board_content">1</td>
+						<td class="board_content">2</td>
 						<td class="board_content">gary</td>
 						<td class="board_content">홍길동</td>
 						<td class="board_content">가입인사1</td>
 						<td class="board_content">2024-07-08</td>
 					</tr>
 					<tr>
-						<td class="board_content">1</td>
+						<td class="board_content">3</td>
 						<td class="board_content">gary</td>
 						<td class="board_content">홍길동</td>
 						<td class="board_content">가입인사1</td>
@@ -58,16 +58,10 @@
 					</tr>
 					<tr>
 						<td colspan="5" align="right">
-							<input class="btn01" type="button" onclick="javascript:">
-						</td>
-					
-					
-					
-					
-					</tr>
-					
-				</table>
-				
+							<input class="btn01" type="button" value="글쓰기" onclick="javascript:window.location.href='write'">
+						</td>					
+					</tr>					
+				</table>				
 			</td>
 		</tr>
 	</table>

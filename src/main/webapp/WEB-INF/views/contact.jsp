@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>login</title>
+<title> My Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -24,13 +24,14 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="content_box" align="center">
-							
+			<td class="content_box" align="center">						
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td align="center">
 							<span class="content_text">
 								contact
+								contact1
+								contact2
 							</span>
 						</td>
 					</tr>
