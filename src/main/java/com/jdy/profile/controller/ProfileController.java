@@ -62,6 +62,7 @@ public class ProfileController {
 		MemberDao memberDao = sqlSession.getMapper(MemberDao.class);
 				
 		int idCheck = memberDao.idCheckDao(request.getParameter("mid"));
+		// idCheck == 1이면 가입불가, 0이면 가입가능
 		
 		return "joinOk";
 	}

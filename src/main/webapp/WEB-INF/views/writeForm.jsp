@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>My Profile</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -15,17 +15,17 @@
 	<table border="0" cellpadding="20" cellspacing="0">
 		<tr>
 			<td align="center">
-				<span class="title_text01">DEVELOPER GYOJIN's PROFILE</span>
+				<span class="title_text01">JDY's PROFILE</span>
 			</td>
 		</tr>
 		<tr>
 			<td align="center">
-				<span class="title_text02">I'm Gyojin Lee, a developer who wants a development job. Please call me back.</span>
+				<span class="title_text02">I'm JDY, a developer who wants a development job. Please call me back.</span>
 			</td>
 		</tr>
 		<tr>
 			<td class="content_box" align="center">
-				<form action="writeOk" method="post" name="writeForm">				
+				<form action="writeOk" name="writeForm">				
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td align="right">
@@ -56,12 +56,12 @@
 							<span class="content_text">제목 :</span>
 						</td>
 						<td>
-							<input class="input_box01" type="text" name="bemail">
+							<input class="input_box02" type="text" name="btitle">
 						</td>
 					</tr>
 					<tr>
 						<td align="right" valign="top">
-							<span class="content_text">글내용 :</span>
+							<span class="content_text">내용 :</span>
 						</td>
 						<td>
 							<textarea  class="text_area" rows="10" cols="50" name="bcontent"></textarea>
@@ -74,7 +74,7 @@
 					<tr>
 						<td colspan="2" align="center">							
 							<input class="btn01" type="submit" value="작성완료">
-							<input class="btn01" type="button" value="취소" onclick="javascript:window.location.href='write'">
+							<input class="btn01" type="button" value="취소" onclick="javascript:window.location.href='list'">
 						</td>
 					</tr>
 				</table>
