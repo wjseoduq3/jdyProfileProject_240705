@@ -24,7 +24,7 @@
 		</tr>
 		<tr>
 			<td>
-				<table border="0" cellpadding="20" cellspacing="0">
+				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td class="skill_box">
 							<span class="skill_text01">J</span><span class="skill_text02">AVA</span>
