@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body {
+	margin:0;
+	padding:0;
+	background-color: #efebce;
+}
+
 span.title_text01 {
 	font-size: 80px;
 	color: #81B622;
