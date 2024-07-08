@@ -11,4 +11,5 @@ public interface MemberDao {
 	public int loginCheckDao(String mid, String mpw);
 	public MemberDto getMemberInfoDao(String mid);
 	
+	
 }

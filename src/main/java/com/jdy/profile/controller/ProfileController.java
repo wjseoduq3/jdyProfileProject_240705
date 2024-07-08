@@ -130,5 +130,20 @@ public class ProfileController {
 		return "login";
 	}
 	
+	@GetMapping(value = "/modify")
+	public String modify(HttpSession session, Model model) {
+		
+		String sid = (String) session.getAttribute("sessionId");
+		MemberDao memberDao = sqlSession.getMapper(MemberDao.class);
+		
+		MemberDto memberDto = memberDao.getMemberInfoDao(sid);
+		
+		model.addAttribute("mDto", memberDto);
+		
+		return "modifyForm";
+	}
+	
+	
+	
 	
 }
