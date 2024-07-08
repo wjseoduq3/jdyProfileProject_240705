@@ -36,4 +36,9 @@ public class ProfileController {
 		return "contact";
 	}
 	
+	@GetMapping(value = "/write")
+	public String write() {
+		return "write";
+	}
+	
 }
