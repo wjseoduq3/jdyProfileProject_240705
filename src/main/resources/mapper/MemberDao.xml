@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -20,7 +21,7 @@
 		select count(*) from pmembers where mid=#{param1} and mpw=#{param2}
 	</select>
 	
-	<!-- 아이디 존재여부 체크 -->
+	<!--  -->
 	<select id="getMemberInfoDao" resultType="com.jdy.profile.dto.MemberDto">
 		select * from pmembers where mid=#{param1}
 	</select>

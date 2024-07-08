@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
 <link rel="stylesheet" href="/resources/css/board.css">
-<title>My Profile</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -25,8 +25,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="content_box" align="center">
-							
+			<td class="content_box" align="center">						
 				<table border="0" cellpadding="10" cellspacing="0" width="90%">
 					<tr>
 						<th class="board_title" width="6%">번호</th>
@@ -39,21 +38,21 @@
 						<td class="board_content" align="center">1</td>
 						<td class="board_content" align="center">gary</td>
 						<td class="board_content" align="center">홍길동</td>
-						<td class="board_content" align="left">가입인사1</td>
+						<td class="board_content" align="left">가입인사</td>
 						<td class="board_content" align="center">2024-07-08</td>
 					</tr>
 					<tr>
 						<td class="board_content">2</td>
 						<td class="board_content">gary</td>
 						<td class="board_content">홍길동</td>
-						<td class="board_content">가입인사1</td>
+						<td class="board_content">가입인사</td>
 						<td class="board_content">2024-07-08</td>
 					</tr>
 					<tr>
 						<td class="board_content">3</td>
 						<td class="board_content">gary</td>
 						<td class="board_content">홍길동</td>
-						<td class="board_content">가입인사1</td>
+						<td class="board_content">가입인사</td>
 						<td class="board_content">2024-07-08</td>
 					</tr>
 					<tr>

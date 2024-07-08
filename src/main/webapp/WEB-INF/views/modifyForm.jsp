@@ -49,7 +49,7 @@
 							<span class="content_text">비밀번호확인 :</span>
 						</td>
 						<td>
-							<input class="input_box01" type="password" name="mpwCheck" value="${mDto.mpw}">
+							<input class="input_box01" type="password" name="mpwCheck">
 						</td>
 					</tr>
 					<tr>

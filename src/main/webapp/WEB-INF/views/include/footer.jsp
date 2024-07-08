@@ -15,14 +15,14 @@
 			</td>
 		</tr>
 		<tr class="footer_line">
-			<td height="30">
+			<td>
 				<span class="footer_text">
-					Copyright 2024 (c)JDY
+					Copyright 2024 (c)JDY. All Rights Reserved
 				</span>
 			</td>
 		</tr>
 		<tr class="footer_line">
-			<td height="30">
+			<td>
 				<span class="footer_text">
 					Call: 010-1234-5678
 				</span>

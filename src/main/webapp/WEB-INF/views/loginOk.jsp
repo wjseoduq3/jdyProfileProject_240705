@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title> My Profile</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<c:if test="${loginFail == 1}">
@@ -16,10 +16,7 @@
 			history.go(-1);
 		</script>
 	</c:if>
-	
-	
-	
-	
+		
 	<%@ include file="include/header.jsp" %>
 
 	<center>
@@ -43,12 +40,11 @@
 							${mname}님 로그인을 축하드립니다.<br>
 							${mname}님의가입일은 ${mdate}입니다.<br>
 							게시판에 글을 쓰실 수 있습니다.<br><br>							
-							<input class="btn01" type="button" value="로그인" onclick="onclick="javascript:window.location.href='write'">
+							<input class="btn01" type="button" value="글쓰기" onclick="javascript:window.location.href='write'">
 							</span>
 						</td>
 					</tr>
 				</table>
-				</form>
 			</td>
 		</tr>
 	</table>

@@ -15,7 +15,7 @@
 					&nbsp;
 				</td>
 				<td width="5%">
-					<a href="/index"><span class="menu">home</span></a>
+					<a href="index"><span class="menu">home</span></a>
 				</td>
 				
 				<c:choose>
@@ -27,8 +27,7 @@
 							<a href="join"><span class="menu">join</span></a>
 						</td>
 					</c:when>
-					<c:otherwise>
-					
+					<c:otherwise>				
 						<td width="5%">
 							<a href="logout"><span class="menu">logout</span></a>
 						</td>
@@ -42,7 +41,7 @@
 					<a href="profile"><span class="menu">profile</span></a>
 				</td>
 				<td width="5%">
-					<a href="board"><span class="menu">board</span></a>
+					<a href="list"><span class="menu">board</span></a>
 				</td>
 				<td width="5%">
 					<a href="contact"><span class="menu">contact</span></a>

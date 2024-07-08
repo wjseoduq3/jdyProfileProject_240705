@@ -59,7 +59,7 @@ public class ProfileController {
 	
 	@GetMapping(value = "/write")
 	public String write() {
-		return "write";
+		return "writeForm";
 	}
 	
 	@GetMapping(value = "/list")
@@ -75,7 +75,7 @@ public class ProfileController {
 		int idCheck = memberDao.idCheckDao(request.getParameter("mid"));
 		// idCheck == 1이면 가입불가, 0이면 가입가능
 		
-		if(idCheck==1) {
+		if(idCheck==1) { //참이면 가입불가
 			model.addAttribute("joinFail", 1);
 			
 		} else { // 가입성공
@@ -92,21 +92,20 @@ public class ProfileController {
 		
 		MemberDao memberDao = sqlSession.getMapper(MemberDao.class);
 				
-		int loginCheck = memberDao.loginCheckDao(request.getParameter("mid"), request.getParameter("mid"));
-		// idCheck == 1이면 가입불가, 0이면 가입가능
+		int loginCheck = memberDao.loginCheckDao(request.getParameter("mid"), request.getParameter("mpw"));
+		// loginCheck == 1이면 로그인 성공, 0이면 로그인 실패
 		
 		MemberDto memberDto = null;
 		
-		if(loginCheck !=1) {
+		if(loginCheck !=1) { //참이면 로그인 실패
 			model.addAttribute("loginFail", 1);
 			
-		} else { // 로그인 성공
+		} else { //로그인 성공->세션에 현재 로그인 성공된 아이디를 저장
 			session.setAttribute("sessionId", request.getParameter("mid"));	
 			memberDto = memberDao.getMemberInfoDao(request.getParameter("mid"));
 						
 			model.addAttribute("mname", memberDto.getMname());
-			model.addAttribute("mdate", memberDto.getMdate());
-			
+			model.addAttribute("mdate", memberDto.getMdate());			
 		}
 		return "loginOk";		
 	}
@@ -116,10 +115,10 @@ public class ProfileController {
 		
 		// 컨트롤러에서 경고창 띄우기
 		try {
-			response.setContentType("text/html;charset=utf-8");
+			response.setContentType("text/html;charset=utf-8");//경고창 텍스트를 utf-8로 인코딩
 			response.setCharacterEncoding("utf-8");
 			PrintWriter printWriter = response.getWriter();
-			printWriter.println("<script>alert('"+"로그아웃하시겠습니까?"+"');location.href='"+"login"+"'</script>");
+			printWriter.println("<script>alert('"+"로그아웃하시겠습니까?"+"');location.href='"+"login"+"';</script>");
 			printWriter.flush();
 			session.invalidate();
 		} catch (IOException e) {
@@ -136,7 +135,7 @@ public class ProfileController {
 		String sid = (String) session.getAttribute("sessionId");
 		MemberDao memberDao = sqlSession.getMapper(MemberDao.class);
 		
-		MemberDto memberDto = memberDao.getMemberInfoDao(sid);
+		MemberDto memberDto = memberDao.getMemberInfoDao(sid); //현재 로그인한 회원의 모든 정보
 		
 		model.addAttribute("mDto", memberDto);
 		

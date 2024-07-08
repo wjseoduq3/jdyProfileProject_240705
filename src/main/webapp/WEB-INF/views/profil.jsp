@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>login</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -24,18 +24,18 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="content_box" align="center">
-							
+			<td class="content_box" align="center">						
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td align="center">
 							<span class="content_text">
-								profile
+								안녕하세요 Web Application 개발자 JDY입니다.<br>
+								보시고 계신 페이지는 SpringBoot Framework으로 개발되었습니다.<br>
+								웹 어플리케이션 개발 관련하여 궁금하신 점은 게시판을 이용해주세요.
 							</span>
 						</td>
 					</tr>
 				</table>
-				</form>
 			</td>
 		</tr>
 	</table>

@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<script type="text/javascript" src="/resource/js/login.js"></script>
+<script type="text/javascript" src="/resources/js/login.js"></script>
 <title>JDY Profile</title>
 </head>
 <body>

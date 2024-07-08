@@ -12,9 +12,10 @@ span.menu {
 }
 
 span.loginid {
-	color:#000000;
+	color:#3D550C;
 	font-family: Arial;
 	font-size: 20px;
+	font-weight: bold;
 }
 
 a:link {

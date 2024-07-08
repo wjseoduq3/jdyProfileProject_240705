@@ -66,8 +66,7 @@
 						<td>
 							<textarea  class="text_area" rows="10" cols="50" name="bcontent"></textarea>
 						</td>
-					</tr>
-					
+					</tr>				
 					<tr>
 						<td colspan="2">&nbsp;</td>
 					</tr>

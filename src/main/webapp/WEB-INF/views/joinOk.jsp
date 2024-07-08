@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title> My Profile</title>
+<title>JDY Profile</title>
 </head>
 <body>
 	<c:if test="${joinFail == 1}">
@@ -15,10 +15,7 @@
 			alert("가입하시려는 아이디는 이미 가입된 아이디입니다. 다시 확인해 주세요.");
 			history.go(-1);
 		</script>
-	</c:if>
-	
-	
-	
+	</c:if>	
 	
 	<%@ include file="include/header.jsp" %>
 
@@ -42,13 +39,12 @@
 							<span class="content_text">
 							${mname}님 회원가입을 축하드립니다.<br>
 							가입하신 아이디는 ${mid}입니다.<br>
-							로그인후 게시판에 글을 쓰실 수 있습니다.
-							<input class="btn01" type="button" value="로그인" onclick="onclick="javascript:window.location.href='login'">
+							로그인후 게시판에 글을 쓰실 수 있습니다.<br><br>
+							<input class="btn01" type="button" value="로그인" onclick="javascript:window.location.href='login'">
 							</span>
 						</td>
 					</tr>
 				</table>
-				</form>
 			</td>
 		</tr>
 	</table>
