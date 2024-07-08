@@ -29,7 +29,7 @@
 				<table border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<td align="right">
-							<span class="content_text">아 이 디 :</span>
+							<span class="content_text">아이디 :</span>
 						</td>
 						<td>
 							<input class="input_box01" type="text" name="bid">
@@ -53,10 +53,18 @@
 					</tr>
 					<tr>
 						<td align="right">
+							<span class="content_text">제목 :</span>
+						</td>
+						<td>
+							<input class="input_box01" type="text" name="bemail">
+						</td>
+					</tr>
+					<tr>
+						<td align="right" valign="top">
 							<span class="content_text">글내용 :</span>
 						</td>
 						<td>
-							<textarea rows="10" cols="80" name="bcontent"></textarea>
+							<textarea  class="text_area" rows="10" cols="50" name="bcontent"></textarea>
 						</td>
 					</tr>
 					

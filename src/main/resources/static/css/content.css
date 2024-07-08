@@ -40,3 +40,19 @@ input.btn01:hover {
 	background-color: #a8b90b;
 	cursor: pointer;
 }
+
+
+
+textarea.text_area {
+	border:1px solid #3D550C;
+	font-family: NanumGothic, Arial;
+	font-size: 20px;
+	padding: 5px;
+	width: 500px;
+}
+
+
+
+
+
+

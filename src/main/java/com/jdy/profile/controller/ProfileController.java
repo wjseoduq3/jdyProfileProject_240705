@@ -41,4 +41,9 @@ public class ProfileController {
 		return "write";
 	}
 	
+	@GetMapping(value = "/list")
+	public String list() {
+		return "boardlist";
+	}
+	
 }
