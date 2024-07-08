@@ -13,7 +13,17 @@
 	<!-- 아이디 존재여부 체크 -->
 	<select id="idCheckDao" resultType="int">
 		select count(*) from pmembers where mid=#{param1}
-	
 	</select>
+	
+	<!-- 로그인 체크 -->
+	<select id="loginCheckDao" resultType="int">
+		select count(*) from pmembers where mid=#{param1} and mpw=#{param2}
+	</select>
+	
+	<!-- 아이디 존재여부 체크 -->
+	<select id="getMemberInfoDao" resultType="com.jdy.profile.dto.MemberDto">
+		select * from pmembers where mid=#{param1}
+	</select>
+	
 
 </mapper>

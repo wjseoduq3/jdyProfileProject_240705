@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.jdy.profile.dao.MemberDao;
+import com.jdy.profile.dto.MemberDto;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class ProfileController {
@@ -56,6 +58,7 @@ public class ProfileController {
 	public String list() {
 		return "boardlist";
 	}
+	
 	@PostMapping(value = "/joinOk")
 	public String joinOk(HttpServletRequest request, Model model) {
 		
@@ -64,10 +67,41 @@ public class ProfileController {
 		int idCheck = memberDao.idCheckDao(request.getParameter("mid"));
 		// idCheck == 1이면 가입불가, 0이면 가입가능
 		
-		return "joinOk";
+		if(idCheck==1) {
+			model.addAttribute("joinFail", 1);
+			
+		} else { // 가입성공
+			memberDao.joinDao(request.getParameter("mid"), request.getParameter("mpw"), request.getParameter("mname"), request.getParameter("memail"));
+			model.addAttribute("mid", request.getParameter("mid"));
+			model.addAttribute("mname", request.getParameter("mname"));
+			
+		}
+		return "joinOk";		
 	}
 	
-	
+	@PostMapping(value = "/loginOk")
+	public String loginOk(HttpServletRequest request, HttpSession session, Model model) {
+		
+		MemberDao memberDao = sqlSession.getMapper(MemberDao.class);
+				
+		int loginCheck = memberDao.loginCheckDao(request.getParameter("mid"), request.getParameter("mid"));
+		// idCheck == 1이면 가입불가, 0이면 가입가능
+		
+		MemberDto memberDto = null;
+		
+		if(loginCheck !=1) {
+			model.addAttribute("loginFail", 1);
+			
+		} else { // 로그인 성공
+			session.setAttribute("sessionId", request.getParameter("mid"));	
+			memberDto = memberDao.getMemberInfoDao(request.getParameter("mid"));
+						
+			model.addAttribute("mname", memberDto.getMname());
+			model.addAttribute("mdate", memberDto.getMdate());
+			
+		}
+		return "loginOk";		
+	}
 	
 	
 }
