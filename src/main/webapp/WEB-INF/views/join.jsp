@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/resources/css/title.css">
 <link rel="stylesheet" href="/resources/css/content.css">
-<title>login</title>
+<title>My Profile</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -44,12 +44,28 @@
 						</td>
 					</tr>
 					<tr>
+						<td align="right">
+							<span class="content_text">이름 :</span>
+						</td>
+						<td>
+							<input class="input_box01" type="text" name="mname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span class="content_text">이메일 :</span>
+						</td>
+						<td>
+							<input class="input_box01" type="text" name="memail">
+						</td>
+					</tr>
+					<tr>
 						<td colspan="2">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="2" align="center">							
-							<input class="btn01" type="submit" value="로그인">
-							<input class="btn01" type="button" value="회원가입" onclick="javascript:window.location.href='login'">
+							<input class="btn01" type="submit" value="가입완료">
+							<input class="btn01" type="button" value="로그인" onclick="javascript:window.location.href='join'">
 						</td>
 					</tr>
 				</table>

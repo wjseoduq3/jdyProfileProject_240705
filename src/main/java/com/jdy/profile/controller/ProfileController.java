@@ -16,4 +16,24 @@ public class ProfileController {
 		return "index";
 	}
 	
+	@GetMapping(value = "/login")
+	public String login() {
+		return "login";
+	}
+	
+	@GetMapping(value = "/join")
+	public String join() {
+		return "join";
+	}
+	
+	@GetMapping(value = "/profile")
+	public String profile() {
+		return "profile";
+	}
+	
+	@GetMapping(value = "/contact")
+	public String contact() {
+		return "contact";
+	}
+	
 }

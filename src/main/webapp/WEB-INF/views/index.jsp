@@ -36,28 +36,28 @@
 					<tr>
 						<td class="skill_box">
 							<span class="skill_text01">J</span><span class="skill_text02">SP</span>
-						</td>
+						</td>						
 					</tr>
 					<tr>
 						<td class="skill_box">
 							<span class="skill_text01">S</span><span class="skill_text02">PRINGBOOT</span>
-						</td>
-					</tr>
-					<tr>
-						<td class="skill_box">
-							<span class="skill_text01">H</span><span class="skill_text02">TML5&CSS</span>
-						</td>
-					</tr>
-					<tr>
-						<td class="skill_box">
-							<span class="skill_text01">D</span><span class="skill_text02">ATABASE</span>
-						</td>
+						</td>						
 					</tr>
 					<tr>
 						<td class="skill_box">
 							<span class="skill_text01">J</span><span class="skill_text02">AVASCRIPT</span>
-						</td>
-					</tr>	
+						</td>						
+					</tr>
+					<tr>
+						<td class="skill_box">
+							<span class="skill_text01">H</span><span class="skill_text02">TML5&CSS</span>
+						</td>						
+					</tr>
+					<tr>
+						<td class="skill_box">
+							<span class="skill_text01">D</span><span class="skill_text02">ATABASE</span>
+						</td>						
+					</tr>
 				</table>
 			</td>
 		</tr>
